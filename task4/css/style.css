@@ -1,0 +1,131 @@
+@font-face {
+    font-family: TahomaRegular;
+    src: url(../fonts/Tahoma Regular.ttf);
+}
+body {
+	background-image: url(../img/background.png);
+}
+.copy {
+	text-align: center;
+	line-height: 35px;
+	font-family: TahomaRegular;
+	font-size: 15px;
+	color: #fff;
+}
+.container {
+	width: 1000px;
+	margin: 36px auto 0;
+	background-color: white;
+	-webkit-box-shadow: 0px 2px 14px 1px rgba(0,0,0,0.6);
+       -moz-box-shadow: 0px 2px 14px 1px rgba(0,0,0,0.6);
+            box-shadow: 0px 2px 14px 1px rgba(0,0,0,0.6);
+}
+.container:after {
+	content: '.';
+	visibility: hidden;
+}
+/*HEADER*/
+.logo {
+	float: left;
+	width: 30%;
+	padding-left: 30px;
+	padding-top: 10px;	
+}
+.contacts {
+	float: right;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+.contacts p {
+	font-size: 14px;
+	font-family: TahomaRegular;
+	color: #128aa7;
+}
+.contries {
+	float: right;
+	clear: right;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+.contries li {
+	padding-left: 12px;
+}
+/*PHOTO*/
+.photo img {
+	display: block;
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+}
+/*NAVIGATION*/
+.nav {
+	width: 1000px;
+	height: 28px;
+	background-image: url(../img/panel.png);
+}
+ul {
+	list-style: none;
+}
+ul li {
+	float: left;
+	cursor: pointer;
+	position: relative;
+	z-index: 1;
+	line-height: 28px;
+	font-family: TahomaRegular;
+}
+ul a {
+	text-decoration: none;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: TahomaRegular;
+	font-size: 15px;
+}
+ul li ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 28px;
+}
+ul li ul li {
+	float: none;
+	display: block;
+	background: #303030;
+	-webkit-box-shadow: 0px 2px 14px 1px rgba(0,0,0,0.6);
+       -moz-box-shadow: 0px 2px 14px 1px rgba(0,0,0,0.6);
+            box-shadow: 0px 2px 14px 1px rgba(0,0,0,0.6);
+}
+ul li:hover ul {
+	display: block;
+}
+/*COLUMNS*/
+.fon {
+	float: left;
+	width: 1000px;
+	background: url(../img/fon.png);
+	line-height: 28px;
+}
+.leftColumn {
+	float: left;
+	width: 175px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+.centerColumn {
+	float: left;
+	width: 545px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+.rightColumn {
+	float: left;
+	width: 175px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+.fon h1 {
+	text-align: center;
+	font-family: TahomaRegular;
+	font-size: 20px;
+}
+
