@@ -81,8 +81,10 @@ a {
 	border: 1px solid #c8c8c8;
 }
 .img img {
-	padding: 46px 90px;
+	display: block;
 	margin: auto;
+	width: 80%;
+	height: 80%;
 }
 .content p {
 	display: block;
