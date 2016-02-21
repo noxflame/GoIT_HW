@@ -21,8 +21,6 @@ body {
 }
 .navigation li {
 	float: right;	
-	padding-left: 13px;
-	padding-right: 13px;
 	line-height: 35px;
 	font-family: 'helveticaneue', Arial, sans-serif;
 	font-size: 14px;
@@ -38,6 +36,8 @@ body {
 }
 .enter li {
 	border: 1px solid transparent;
+	padding-left: 13px;
+	padding-right: 13px;
 }
 .enter li:hover {
 	border: 1px solid #51b1dc;
@@ -56,6 +56,8 @@ body {
 	display: block;
 	height: 37px;
 	width: 100%;
+	padding-left: 13px;
+	padding-right: 13px;
 	text-decoration: none;
 	color: #60b5ed;
 }
