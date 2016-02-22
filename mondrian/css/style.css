@@ -3,7 +3,31 @@ td {
 }
 table { 
 	border-collapse: collapse;
-	margin: auto;
+	margin: 40px auto;
+}
+.white1, 
+.white3, 
+.white4, 
+.yellow3 {
+	border-left: none;
+}
+.white1, 
+.white2,
+.yellow1 {
+	border-top: none;
+}
+.yellow1, 
+.yellow2, 
+.white6,
+.white9,  
+.white10, 
+.blue {
+	border-right: none;
+}
+.yellow3, 
+.white8, 
+.white9 {
+	border-bottom: none;
 }
 /*1 row*/
 .white1 {
