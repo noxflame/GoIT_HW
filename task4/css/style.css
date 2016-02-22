@@ -1,14 +1,26 @@
-@font-face {
+/*@font-face {
     font-family: TahomaRegular;
     src: url(../fonts/Tahoma Regular.ttf);
+}*/
+@font-face {
+	font-family: 'Tahoma', Arial, sans-serif;
+	src: url('../fonts/Tahoma.eot');
+	src: url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Tahoma.woff') format('woff'),
+		url('../fonts/Tahoma.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 body {
 	background-image: url(../img/background.png);
+	background-repeat: repeat-x;
+	background-color: #0c739f;
 }
 .copy {
+	clear: both;
 	text-align: center;
 	line-height: 35px;
-	font-family: TahomaRegular;
+	font-family: 'Tahoma', Arial, sans-serif;
 	font-size: 15px;
 	color: #fff;
 }
@@ -21,7 +33,7 @@ body {
             box-shadow: 0px 2px 14px 1px rgba(0,0,0,0.6);
 }
 .container:after {
-	content: '.';
+	content: '';
 	visibility: hidden;
 }
 /*HEADER*/
@@ -38,17 +50,25 @@ body {
 }
 .contacts p {
 	font-size: 14px;
-	font-family: TahomaRegular;
+	font-family: 'Tahoma', Arial, sans-serif;
 	color: #128aa7;
 }
 .contries {
 	float: right;
 	clear: right;
-	padding-right: 30px;
+	padding-right: 25px;
 	padding-top: 30px;
 }
 .contries li {
-	padding-left: 12px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.contries ul p {
+	color: #128aa7;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 11px;
+	line-height: 11px;
 }
 /*PHOTO*/
 .photo img {
@@ -71,14 +91,14 @@ ul li {
 	position: relative;
 	z-index: 1;
 	line-height: 28px;
-	font-family: TahomaRegular;
+	font-family: 'Tahoma', Arial, sans-serif;
 }
-ul a {
+.nav ul a {
 	text-decoration: none;
 	color: white;
 	padding-left: 30px;
 	padding-right: 30px;
-	font-family: TahomaRegular;
+	font-family: 'Tahoma', Arial, sans-serif;
 	font-size: 15px;
 }
 ul li ul {
@@ -104,6 +124,8 @@ ul li:hover ul {
 	width: 1000px;
 	background: url(../img/fon.png);
 	line-height: 28px;
+	font-family: 'Tahoma', Arial, sans-serif;
+	font-size: 12px;
 }
 .leftColumn {
 	float: left;
@@ -125,7 +147,7 @@ ul li:hover ul {
 }
 .fon h1 {
 	text-align: center;
-	font-family: TahomaRegular;
-	font-size: 20px;
+	font-family: 'Tahoma', Arial, sans-serif;
+	font-size: 15px;
 }
 
