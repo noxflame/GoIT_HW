@@ -1,0 +1,81 @@
+td { 
+    border: 10px solid #000;
+}
+table { 
+	border-collapse: collapse;
+	margin: auto;
+}
+/*1 row*/
+.white1 {
+	width: 116px;
+	height: 47px;
+	background-color: #fff;
+}
+.white2 {
+	width: 200px;
+	background-color: #fff;
+}
+.yellow1 {
+	width: 164px;
+	background-color: #ffee5c;
+}
+/*2 row*/
+.white3 {
+	width: 47px;
+	height: 130px;
+	background-color: #fff;
+}
+.red {
+	background-color: #fc5b3e;
+}
+.yellow2 {
+	width: 164px;
+	height: 128px;
+	background-color: #ffee5c;
+}
+/*3 row*/
+.white4 {
+	width: 47px;
+	height: 199px;
+	background-color: #fff;
+}
+.white5 {
+	width: 77px;
+	height: 128px;
+	background-color: #fff;
+}
+.white6 {
+	width: 75px;
+	background-color: #fff;
+}
+/*4 row*/
+.grey1 {
+	width: 60px;
+	height: 60px;
+	background-color: #060c0a;
+}
+.white7 {
+	width: 128px;
+	background-color: #fff;
+}
+/*5 row*/
+.yellow3 {
+	height: 135px;
+	background-color: #ffee5c;
+}
+.blue {
+	background-color: #104b8c;
+}
+/*6 row*/
+.white8 {
+	height: 68px;
+	background-color: #fff;
+}
+.grey2 {
+	height: 27px;
+	background-color: #060c0a;
+}
+/*7 row*/
+.white9 {
+	background-color: #fff;
+}
