@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	src: url(../fonts/'LucidaSansUnicode.eot');
@@ -356,4 +357,364 @@ footer p {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	color: rgb(127, 71, 64);
+=======
+@font-face {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	src: url(../fonts/'LucidaSansUnicode.eot');
+	src: url(../fonts/'LucidaSansUnicode.eot?#iefix') format('embedded-opentype'),
+		url(../fonts/'LucidaSansUnicode.woff2') format('woff2'),
+		url(../fonts/'LucidaSansUnicode.woff') format('woff'),
+		url(../fonts/'LucidaSansUnicode.ttf') format('truetype'),
+		url(../fonts/'LucidaSansUnicode.svg#LucidaSansUnicode') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.wrapper {
+	width: 911px;
+	margin: 0 auto;
+}
+/*HEADER*/
+.phone span {
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 22px;
+	margin-left: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	letter-spacing: 0.4px;
+	color: rgb(94, 105, 109);
+}
+.login {
+	float: left;
+    width: 495px;
+    height: 25px;
+    margin-top: 18px;
+    margin-left: 15px;
+	border-radius: 3px;
+	background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
+}
+.login img {
+	float: left;
+	margin-left: 7px;
+	margin-top: 4px;
+}
+.login input {
+	float: left;
+ 	width: 108px;
+	height: 13px;
+	margin: 3px 3px 4px 3px;
+	padding-left: 5px;	
+	border: 1px solid rgb(155, 161, 163);
+	line-height: 13px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color: rgb(151, 162, 166);
+}
+.login span {
+	height: 25px;
+	padding-left: 5px;
+	color: rgb(255, 255, 255);
+}
+.login a {
+	height: 25px;
+	width: 100%;
+	line-height: 25px;
+	text-decoration: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;	
+	color: rgb(255, 255, 255);
+}
+#forget {
+	padding-left: 4px;
+	text-decoration: underline;
+	color: rgb(191, 191, 191);
+}
+.navi {
+	float: left;
+	width: 75px;
+	height: 20px;
+	margin-top: 19px;
+	margin-left: 17px;
+	border: 1px solid rgb(189, 196, 199);
+	border-radius: 10px;
+}
+.navi img {
+	margin-top: 3px;
+	margin-left: 8px;
+}
+header li {
+	float: left;
+}
+.logo {
+	margin-left: 0px;
+	margin-top: 10px;
+}
+/*NAV*/
+nav {
+	float: left;
+	height: 31px;
+	width: 100%;
+	margin-top: 3px;
+	margin-left: -1px;
+	border: 1px solid rgb(13, 22, 66);
+	border-radius: 4px;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+nav .basket {
+	float: right;
+	margin-right: 12px;
+	margin-left: 6px;
+}
+.basket-img {
+	float: right;
+	margin-top: 7px;
+}
+nav span {
+	padding-left: 3px;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(146, 155, 159);
+	line-height: 31px;
+	letter-spacing: 0.5px;
+}
+nav .blue {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(13, 90, 143);
+	line-height: 31px;
+}
+nav ul {
+	margin-left: 133px;
+}
+nav li {
+	float: left;
+}
+nav a {
+	/*display: block;*/
+	height: 31px;
+	width: 100%;
+	padding-left: 14px;
+	padding-right: 14px;
+	line-height: 31px;
+	letter-spacing: -0.5;
+	text-decoration: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+}
+nav a:hover {
+	height: 26px;
+	border-radius: 10px;
+	background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+}
+/*SECTIONS*/
+section {
+	border: 1px solid rgb(156, 156, 157);
+	border-radius: 17px;
+	box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75);
+}
+/*LEFT-SIDE*/
+.left-side {
+	float: left;
+	min-height: 300px;
+	margin-top: 16px;
+}
+.left-side ul {
+	margin-left: 51px;
+	list-style-image: url(../img/marker.png);
+}
+.left-side li {
+	line-height: 25px;
+	font-size: 14px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: rgb(70, 89, 97);
+}
+.left-side li:hover {
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: rgb(12, 50, 86);
+	font-weight: bold;
+	font-style: italic;
+}
+aside .brand {
+	width: 180px;
+	height: 25px;
+	margin-bottom: 13px;
+	border: 1px solid rgb(121, 135, 141);
+	border-radius: 15px;
+	box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
+}
+.brand img {
+	float: left;
+	margin-top: 1px;
+	margin-left: 2px;
+}
+.brand p {
+	line-height: 25px;
+	font-size: 13px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: rgb(17, 65, 101);
+}
+aside .side {
+	width: 150px;
+	height: 26px;
+	border: 1px solid rgb(121, 135, 141);
+	border-radius: 15px;
+}
+.side img {
+	float: left;
+	margin-top: 1px;
+	margin-left: 4px;
+}
+.side p {
+	padding-left: 30px;
+	line-height: 25px;
+	font-size: 13px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: rgb(17, 65, 101);
+}
+/*MAIN*/
+main {
+	float: left;
+	width: 526px;
+	height: 628px;
+	margin: 13px 9px 30px 9px;
+	border-radius: 3px;
+	background-image: -moz-linear-gradient( 90deg, rgb(161,179,187) 0%, rgb(229,231,232) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(161,179,187) 0%, rgb(229,231,232) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(161,179,187) 0%, rgb(229,231,232) 100%);
+}
+main figure {
+	float: left;
+	margin-left: 23px;
+	margin-right: 7px;
+	margin-top: 16px;
+	margin-bottom: 8px; 
+	font-size: 13px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: black;
+	text-align: center;
+}
+main .top {
+	margin-top: 16px;
+}
+.main-bold {
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(32, 105, 136);
+}
+figcaption {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(17, 65, 101);
+	font-weight: bold;
+	font-style: italic;
+}
+.fig-small {
+	font-size: 13px;
+}
+.main-frame {
+	width: 136px;
+	height: 127px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(164, 174, 177);
+	border-radius: 7px;
+}
+.main-frame img {
+margin-top: 5px;
+}
+/*RIGHT-SIDE*/
+.right-side {
+	float: left;
+	min-height: 300px;
+	margin-top: 14px;
+}
+.brand-check {
+	margin-left: 22px;
+	margin-top: 5px;
+}
+.right-side label {
+	font-size: 13px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.right-side .ls-margin {
+	width: 135px;
+	margin-left: 15px;
+	margin-top: 14px;
+}
+input[type=submit] {
+	width: 81px;
+	height: 26px;
+	margin-left: 25px;
+	margin-top: 22px;
+	border-radius: 11px;
+	border: 1px solid rgb(167, 171, 174);
+	background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(229, 233, 234);
+}
+/*FOOTER*/
+.brand-logo {
+	clear: both;
+	float: left;
+	margin-left: 118px;
+	margin-top: 12px;
+	margin-bottom: 18px;
+}
+.brand-logo li {
+	float: left;
+	margin-right: 13px;
+}
+footer {
+	clear: both;
+	height: 100px;
+	text-align: center;
+	padding-left: 297px;
+	padding-right: 297px;
+	padding-top: 12px;
+	background-color: rgb(33, 58, 77);
+}
+footer:after {
+	content: ""
+}
+footer li {
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: rgb(190, 198, 201);
+}
+footer a {
+	padding-left: 12px;
+	padding-right: 12px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: rgb(190, 198, 201);
+}
+footer a:hover {
+	color: rgb(82, 171, 203);
+}
+footer p {
+	clear: both;
+	text-align: center;
+	padding-top: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: rgb(127, 71, 64);
+>>>>>>> c3aed6585d1de7d599543d78e67d0b86a5847880
 }
