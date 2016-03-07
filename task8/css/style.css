@@ -45,7 +45,7 @@ nav {
 }
 .nav__item {
 	float: right;
-	padding-left: 52px;
+	margin-left: 52px;
     text-shadow: 2px 2px 15px rgba(0,0,0,0.4);
 	text-decoration: none;
 	text-transform: uppercase;
@@ -54,8 +54,7 @@ nav {
 	font-size: 24px;
 	}
 .nav__item:hover {
-	text-decoration: underline;
-	text-decoration-color: #edbfff;
+	border-bottom: 3px solid #edbfff;
 }
 .sliders {
 	clear: both;
@@ -335,7 +334,7 @@ h2 {
 }
 .footer__item {
 	float: left;
-	padding-right: 44px;
+	margin-right: 44px;
 	line-height: 114px;
     text-shadow: 2px 2px 15px rgba(0,0,0,0.4);
 	text-decoration: none;
@@ -345,8 +344,7 @@ h2 {
 	font-size: 20px;
 }
 .footer__item:hover {
-	text-decoration: underline;
-	text-decoration-color: #edbfff;
+	border-bottom: 3px solid #edbfff;
 }
 .footer__copy {
 	float: right;
