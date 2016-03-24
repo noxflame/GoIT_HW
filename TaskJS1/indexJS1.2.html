@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jsTask1</title>
+</head>
+<body>
+	<script type="text/javascript">
+var numberOfElements=5;
+var array =[numberOfElements];
+var isInList = false;
+for (var i=0;i<numberOfElements;i++) 
+	{
+		array[i]=prompt('Имя для списка '+ (i+1), '');
+	} 
+var userName=prompt('Введите имя', '')
+i=0;
+while (!isInList && i<numberOfElements) 
+{
+	if (array[i] == userName)
+	{
+        alert (userName + ', вы успешно вошли');
+        isInList = true;
+	}
+	i++;
+}
+if (!isInList)
+{
+    alert('Нет имени '+ userName);
+}
+	</script>
+</body>
+</html>

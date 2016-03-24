@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jsTask1</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	function pow (number, power)
+{
+	var powered=1;
+	
+	for (i=0;i<Math.abs(power);i++) 
+		{
+			powered = powered*number;
+		} 
+	if (power<0) 
+		{
+			powered = 1 / powered;
+		} 
+	alert('Результат = '+powered);
+	return powered
+}
+	var number=prompt('Введите число', '');
+	var power=prompt('Введите степень', '');
+	pow(number, power);
+
+
+
+	</script>
+</body>
+</html>
